@@ -1,24 +1,20 @@
-# vue_byteanalyzer
+# Byteanalyzer
+
+This project is for some basic encoding of hex streams and to visualize them.
+
+## Supported package types
+ * DNS
+
+## Get data
+1. Start wireshark, filter for 'dns' and copy the dns content as hex stream.
+![wireshark](./doc/img/wireshark.jpg)
+
+2. Paste the string into the textfield on the page
+![byteanalyzer](./doc/img/byteanalyzer.jpg)
 
 ## Project setup
 ```
 npm install
+npm run serve # for dev
+npm run build # prod build
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
