@@ -1,5 +1,5 @@
 import {createRouter, createWebHashHistory} from 'vue-router'
-import Dns from '../views/Dns.vue'
+import Dns from '../views/DnsPage.vue'
 
 const routes = [
     {
